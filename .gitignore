@@ -1,0 +1,19 @@
+# Local system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local tooling and logs
+node_modules/
+*.log
+.codex/
+.agents/
