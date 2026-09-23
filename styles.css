@@ -33,7 +33,7 @@ h1 > span { color: #797d6c; }
 .hero-bottom { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-top: 34px; }
 .intro { margin: 0; font-size: 16px; line-height: 1.8; color: var(--muted); }
 .hero-index { padding-bottom: 5px; color: var(--muted); font-size: 10px; letter-spacing: 1.1px; white-space: nowrap; }
-.details { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; padding: 49px 0 66px; }
+.details { display: grid; grid-template-columns: 1fr 1fr; column-gap: 10%; row-gap: 42px; padding: 49px 0 66px; }
 h2 { margin: 0 0 25px; font-size: 14px; font-weight: 600; }
 .section-number { margin-right: 13px; font-size: 10px; color: var(--accent); font-weight: 500; }
 .detail-block p { max-width: 440px; font-size: 14px; line-height: 1.85; margin: 0; }
